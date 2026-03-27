@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  netflix-app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - VITE_TMDB_API_KEY=${VITE_TMDB_API_KEY}
+    restart: unless-stopped
