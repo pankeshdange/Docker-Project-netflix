@@ -3,6 +3,10 @@ FROM node:18-alpine AS builder
 
 WORKDIR /app
 
+# Accept build argument for API key
+ARG VITE_TMDB_API_KEY
+ENV VITE_TMDB_API_KEY=${VITE_TMDB_API_KEY}
+
 # Copy package.json and package-lock.json
 COPY package*.json ./
 
