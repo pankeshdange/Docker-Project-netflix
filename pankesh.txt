@@ -1,7 +1,0 @@
-#VITE_TMDB_API_KEY=38fe526a7b0e20c94f13d89caa410d35
-#TMDB_API_KEY=38fe526a7b0e20c94f13d89caa410d35
-#NODE_ENV=production
-#PORT=3000
-
-#create the .env file and put the all the api in it
-#.gitignore file and commecnted .env
